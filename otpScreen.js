@@ -1,5 +1,5 @@
 let bodyTag = document.body;
-document.addEventListener("keydon",(e)=>{
+document.addEventListener("keydown",(e)=>{
     console.log(0)
 })
 
