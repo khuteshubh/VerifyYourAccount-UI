@@ -9,9 +9,9 @@ console.log(otpInputBoxesTag)
 otpInputBoxesTag.forEach((element,index)=>{
     element.addEventListener("keydown",(e)=>{
         if(e.key >= 0 && e.key<10){
-            otpInputBoxesTag[index].value = "";
+            otpInputBoxesTag[index].value = " ";
             setTimeout({} => {
-                otpInputBoxesTag[index+1].focus()
+                otpInputBoxesTag[index+1],focus();
             },0);
         }
         else if(e.key === 'Backspace'){
